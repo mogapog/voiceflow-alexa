@@ -12,14 +12,14 @@ First, you want to make a voiceflow account and create an assistant. Then, you n
 
 ![Header](https://github.com/mogapog/voiceflow-alexa/assets/139735921/c0a3733c-9e3f-4c82-ae00-e0d489a4ffef)
 
-Log into your alexa account (the same amazon account you use for your alexa) and create a skill. Give it a name, language, etc. Select other as a type of experience and scroll down until you find the hosting settings. Select `Alexa hosted (Python)` and continue creating it. Make sure to change the invocation name of your skill after you create it too, in this case i am going to set it as `Alex Git` but you can set it to anything you want as long as it is within the amazon guidelines for invocation names.
+Log into your alexa account (the same amazon account you use for your alexa) and create a skill. Give it a name, language, etc. Select other as a type of experience and scroll down until you find the hosting settings. Select `Alexa hosted (Python)` and continue creating it. Make sure to change the invocation name of your skill after you create it too, in this case i am going to set it to `Alex Git` but you can set it to anything you want as long as it is within the amazon guidelines for invocation names.
 
 ### Hosting:
 ![Alexa hosted](https://github.com/mogapog/voiceflow-alexa/assets/139735921/2b5cff61-95cd-4276-b16c-8c398cd10ba8)
 
 ### Intents:
 
-Create an intent called `InfoIntent` and give it a slot called `CatchAll` with the type `AMAZON.SearchQuery`. You can give it many different utterances (which are ways of activating the response), but all of them most follow the structure of: `'PHRASE' {CatchAll}`, by example: `Search for {CatchAll}`, or a keyword like `Example {CatchAll}`. Do keep in mind that `{CatchAll}` is the text that is going to be sent to the ai, so if you say _'Search for Domino's pizza'_ and you have that as an utterance, the AI will only receive `Domino's pizza` as a prompt.
+Create an intent called `InfoIntent` and give it a slot called `CatchAll` with the type `AMAZON.SearchQuery`. You can give it many different utterances (which are ways of activating the response), but all of them most follow the structure of: `'PHRASE' {CatchAll}`, by example: `Search for {CatchAll}`, or a keyword like `Example {CatchAll}`. Do keep in mind that `{CatchAll}` is the text that is going to be sent to the ai, so if you say `'Search for Domino's pizza'` and you have that as an utterance, the AI will only receive `Domino's pizza` as a prompt.
 
 ![infointent](https://github.com/mogapog/voiceflow-alexa/assets/139735921/4045cb04-a7d4-4fbe-8f25-45e951bd3a3b)
 ![catchall](https://github.com/mogapog/voiceflow-alexa/assets/139735921/6551a9c3-a6a1-4e72-a904-51080129bd02)
@@ -28,7 +28,7 @@ After that, get the latest release from [Releases](https://github.com/mogapog/vo
 
 ![Release](https://github.com/mogapog/voiceflow-alexa/assets/139735921/7d225290-1a4f-4f41-9795-395b0d5b8e90)
 
-After that, replace `YOUR_API_KEY` in the code with your actual api key that you saved earlier from the voiceflow project. Remember to hit save and then deploy in your project after you finish uploading the code.
+After that, replace `YOUR_API_KEY` in the code with your actual api key that you saved earlier from the voiceflow project. Remember to hit save and then deploy in your project after you finish updating the code.
 
 ![apikey](https://github.com/mogapog/voiceflow-alexa/assets/139735921/0eac2d50-4544-41c6-8345-dce50799a184)
 
