@@ -24,7 +24,7 @@ Create an intent called `InfoIntent` and give it a slot called `CatchAll` with t
 ![infointent](https://github.com/mogapog/voiceflow-alexa/assets/139735921/4045cb04-a7d4-4fbe-8f25-45e951bd3a3b)
 ![catchall](https://github.com/mogapog/voiceflow-alexa/assets/139735921/6551a9c3-a6a1-4e72-a904-51080129bd02)
 
-After that, get the latest release from [Releases](https://github.com/mogapog/voiceflow-alexa/releases) and upload the zip file that you downloaded to the `code` tab of your skill, as shown in the image below. Select every single folder of the zip file from the upload tab, containing the `lambda` folder.
+After that, get the latest release from [Releases](https://github.com/mogapog/voiceflow-alexa/releases) and upload the zip file that you downloaded to the `code` tab of your skill, as shown in the image below. Select every single folder of the zip file from the upload tab.
 
 ![Release](https://github.com/mogapog/voiceflow-alexa/assets/139735921/7d225290-1a4f-4f41-9795-395b0d5b8e90)
 
