@@ -1,5 +1,5 @@
 # Voiceflow-alexa
-An extremely simple way of implementing voiceflow in an alexa skill. This skill works using the voiceflow dialog manager api, allowing for advanced ChatGPT conversations for free in alexa. Read carefully and do not change the names of _anything_ unless specified. Also make sure to hit the save then the build button in the alexa skill after finishing creating the intents, changing the invocation name or after you finish testing your skill successfully.
+An extremely simple way of implementing voiceflow in an alexa skill. This skill works using the voiceflow dialog manager api, allowing for advanced ChatGPT conversations for free in alexa. Read carefully and do not change the names of _anything_ unless specified. Also make sure to hit save and then the build button in the alexa skill after finishing creating the intents, changing the invocation name or after you finish testing your skill successfully.
 
 # Tutorial
 
