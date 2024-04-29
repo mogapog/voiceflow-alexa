@@ -36,6 +36,6 @@ After that, replace `YOUR_API_KEY` in the code with your actual api key that you
 
 # Conclusion and results
 
-Now your code should work and you can test it in the `test` tab of your skill. For some reason, amazon does not let you test on some browsers like opera gx so i recommend using google chrome. Try it out with your browser of choice and see if it works. After you finished building your app, if you used the same account for the skill and on your echo device, you should be able to use it just by calling the invocation name that you set on your skill. Try waiting 20-30 minutes after building before testing on your echo device just to make sure it works.
+Now your code should work and you can test it in the `test` tab of your skill. For some reason, amazon does not let you test on some browsers like opera gx so i recommend using google chrome. Try it out with your browser of choice and see if it works. After you finish building your skill, if you used the same account on your echo device, you should be able to use it just by calling the invocation name that you set on your skill. Try waiting 20-30 minutes after building before testing on your echo device just to make sure it works.
 
 ![result](https://github.com/mogapog/voiceflow-alexa/assets/139735921/d68c1c4f-8c6d-426b-a553-4cd16cf8ca41)
