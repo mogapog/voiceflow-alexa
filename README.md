@@ -6,7 +6,7 @@ An extremely simple way of implementing voiceflow in an alexa skill. This skill 
 ## Voiceflow
 ![newflow](https://github.com/mogapog/voiceflow-alexa/assets/139735921/2e9e4520-6702-4685-9d28-0b52d7df6b57)
 
-First, you want to make a voiceflow account and create an assistant. Then, you need to set up your assistant to something that looks similar to the photo above. The assistant will output a welcome message (that you can change to whatever you want), then capture all input and send it to an ai which will speak a response out loud and end the assistant. Currently, the assistant does not loop so everytime you want to ask a question you will have to start the skill again. Go into the integrations tab of your voiceflow assistant found on the side bar and copy your api key. Keep it stored, it will be important later, also remember to run your assistant and hti the publish button after you make any changes to it for them to apply to the skill.
+First, you want to make a voiceflow account and create an assistant. Then, you need to set up your assistant to something that looks similar to the photo above. The assistant will output a welcome message (that you can change to whatever you want), then capture all input and send it to an ai which will speak a response out loud and end the assistant. Currently, the assistant does not loop so everytime you want to ask a question you will have to start the skill again. Go into the integrations tab of your voiceflow assistant found on the side bar and copy your api key. Keep it stored, it will be important later, also remember to run your assistant and hit the publish button after you make any changes to the assistant for them to be applied in the alexa skill.
 
 ## Alexa
 
